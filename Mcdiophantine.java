@@ -13,7 +13,9 @@ public class Mcdiophantine
 	{
 		for (int i = 0; i * 6 <= sum; i++) //loops for every value of 6 * i untill it is greater or equal to amount of nuggets 
 		{
-		
+			for (int j = 0; i * 6 + j * 9 <= sum; j++) //loops for every value of i * 6 + j * 9, i remains constant throughtout all trials
+			{
+			}
 		} 
 	
 	}
